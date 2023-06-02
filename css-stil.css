@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background-color: rgb(32, 32, 33);
+    font-family:'Bahnschrift Light', 'Ink Free','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:aliceblue;
+}
+
+header {
+    background-color: rgb(113, 76, 149);
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h1 {
+    font-weight: 100;
+}
+h2 {
+    color: rgb(32, 32, 33);
+    font-weight: lighter;
+}
+
+nav {
+    display: flex;
+    background-color: rgba(121, 16, 145, 0.134);
+    justify-content: center;
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 30px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    
+}
+
+nav a:hover {
+  background-color: rgba(32, 32, 33, 0.523);
+}
+
+.omeni{
+    max-width: 60%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+#tekst {
+    padding-bottom: 39px;
+}
+
+.blockquote {
+    border: 1px solid rgb(113, 76, 149) ;
+    border-radius: 17px;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.liste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    line-height: 30px;
+}
+.lista1, .lista2 {
+    background-color: rgba(121, 16, 145, 0.134);
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 60px;
+    border-radius: 17px;
+}
+
+.liste p {
+    font-size: 1.2em;
+}
+ul {
+    list-style-type: circle;
+}
+.images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+
+}
+.video1, .video2, .audio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+
+
